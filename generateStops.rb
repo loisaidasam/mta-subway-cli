@@ -5,7 +5,7 @@ require 'csv'
 
 require 'net/http'
 
-$mtaSubwayData = "mta.info/developers/data/nyct/subway/google_transit.zip"
+$mtaSubwayData = "web.mta.info/developers/data/nyct/subway/google_transit.zip"
 $outputFile = ARGV[0] ? ARGV[0] : "stops.csv"
 $lines = {}
 
